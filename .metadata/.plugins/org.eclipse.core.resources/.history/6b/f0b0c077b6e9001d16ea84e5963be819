@@ -1,0 +1,35 @@
+package JavaPrograms;
+
+
+public class StringReverseBasedonsentense {
+	public static String ReverseStr(String a){
+		 String[] sliptString= a.split(" ");
+		 
+		 System.out.println("-------------"+sliptString);
+		 String emptyString="";
+		 String emptyWord="";
+		int i,j;
+		for( i=0;i<sliptString.length-1;i++)
+		{
+			String splitword =sliptString[i];
+			 
+			for(j=sliptString.length-1;j>=0;j--)
+			{
+				emptyWord=emptyWord+splitword.charAt(j);
+			}
+		
+			
+	  }
+		emptyString=emptyString+emptyWord+" ";
+		return emptyString;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String input = "hi joshwan";
+		String output=ReverseStr(input);
+		System.out.println("result is "+output);
+
+	}
+
+}

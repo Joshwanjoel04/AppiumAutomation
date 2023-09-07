@@ -1,0 +1,26 @@
+package stepDefinations;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginStepDefination {
+	@Given("^user is present in login page$")
+	public void user_is_present_in_login_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@When("^Tittle of the page is axismf$")
+	public void tittle_of_the_page_is_axismf() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    
+	}
+
+	@Then("^user clicks on login button$")
+	public void user_clicks_on_login_button() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	   
+	}
+
+}

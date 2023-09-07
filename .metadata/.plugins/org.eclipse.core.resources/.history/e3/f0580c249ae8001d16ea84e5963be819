@@ -1,0 +1,22 @@
+package JavaPrograms;
+
+public class StringReverseBasedonsentense {
+	public static void ReverseStr(String a){
+		int i;
+		for( i=0;i<a.length()-1;i++)
+		{
+		
+		if(a.charAt(i)!= " ")
+		{
+			System.out.println("code");
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String input = "hi joshwan";
+
+	}
+
+}

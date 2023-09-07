@@ -1,0 +1,19 @@
+package JavaPrograms;
+
+import java.util.Iterator;
+
+public class MultiplicationTable {
+	public static void multiplicationtable(int a )
+	{
+		for (int i;i<=a;i++)
+		{
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

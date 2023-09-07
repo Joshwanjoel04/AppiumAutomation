@@ -1,0 +1,29 @@
+package JavaPrograms;
+
+import com.sun.tools.classfile.CharacterRangeTable_attribute;
+
+public class StringReverseBasedonsentense {
+	public static String ReverseStr(String a){
+		 String[] sliptString= a.split(" ");
+		 String emptyString="";
+		int i,j;
+		for( i=0;i<sliptString.length-1;i++)
+		{
+			 String emptyWord="";
+			for(j=sliptString.length-1;j>=0;j++)
+			{
+				emptyWord=emptyWord+sliptString[j];
+			}
+		
+			emptyString=emptyString+emptyWord+" ";
+	  }
+		return emptyString;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String input = "hi joshwan";
+
+	}
+
+}

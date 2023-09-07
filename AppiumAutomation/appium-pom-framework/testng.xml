@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AppiumTestSuite">
+    <listeners>
+        <listener class-name="com.example.AppiumListener" />
+    </listeners>
+    
+    <test name="AppiumTests">
+        <classes>
+            <class name="com.example.CalculatorTests" />
+            <!-- Add more test classes here if needed -->
+        </classes>
+    </test>
+    
+    <suite-files>
+        <!-- Include additional suite files here if needed -->
+    </suite-files>
+</suite>
